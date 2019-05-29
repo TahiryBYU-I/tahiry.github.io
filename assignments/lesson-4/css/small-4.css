@@ -1,0 +1,56 @@
+body {
+  margin:0 auto;
+  max-width: 600px;
+  background: #e8e8e8;
+  font-family: 'Lato', sans-serif;
+}
+
+#content{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+header {
+  background: #5588a3;
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+nav {
+  list-style-type: none;
+  text-align: center;
+  display: grid;
+  grid-template: 1fr;
+  background: #3b6387;
+  color: white;
+}
+
+nav li {
+  padding: 5px;
+}
+
+#logo {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+#header-title {
+  text-align: center;
+}
+
+#title {
+  font-size: 190%;
+  margin: 15px 0 0 0;
+}
+#motto {
+  margin: 0;
+}
+
+
+
+.logo img {
+  width: 100%;
+}
