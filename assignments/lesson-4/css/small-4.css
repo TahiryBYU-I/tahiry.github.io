@@ -27,6 +27,10 @@ nav {
 nav li {
   padding: 5px;
 }
+nav a {
+  color:white;
+  text-decoration: none;
+}
 
 #logo {
   margin: 0 auto;
@@ -50,16 +54,19 @@ nav li {
   background-image: url(../images/weather-bg.jpg);
   background-size: 100%;
   height: 200px;
-  margin: 10px;
+  margin: 0 10px 20px 0;
 }
 
 .summary {
   float: left;
   min-width: 180px;
-  margin: 10px 0 0 10px;
+  width: 300px;
+  margin: 20px 0 0 20px;
   padding: 10px;
   background: rgba(31, 121, 176, .8);
   color: white;
+  font-size: 120%;
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 }
 .summary h4 {
   text-align: center;
@@ -75,6 +82,7 @@ article {
   padding: 10px;
   background: #668ea3;
   color: white;
+  z-index:-1;
 }
 article h1 { margin-bottom: 0;}
 article div { margin: 10px;}
