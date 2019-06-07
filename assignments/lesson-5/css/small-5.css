@@ -5,16 +5,10 @@
     font-family: 'Lato', sans-serif;
   }
   body {
-    background: white;
-=======
-body {
   width: 600px;
   background: white;
   font-family: 'Lato', sans-serif;
 }
->>>>>>> 60674274b0996ad0970a24cfb53c643cd62e0a50
-
-  }
 
   #content{
     display: grid;
