@@ -1,0 +1,91 @@
+html {
+  font-family: 'Lato', sans-serif;
+  /* color: white; */
+}
+
+#content {
+
+}
+
+
+/* ====================== HEADER ====================== */
+header {
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  background: #5588a3;
+}
+header #logo {
+  width: 100px;
+  margin: auto;
+}
+header h1, header div {
+  margin: 0;
+  text-align: center;
+}
+#header-title > div {
+    padding: 8px;
+}
+
+/* ====================== NAVIGATION ====================== */
+nav {
+  background: #3b6387;
+  list-style-type: none;
+  text-align: center;
+}
+nav a {
+  color:white;
+  text-decoration: none;
+}
+nav li {
+  padding: 5px;
+}
+
+/* ====================== MAIN ====================== */
+main h2 {
+  text-align: center;
+  color: #1f4664;
+}
+.herodiv{
+  position:relative;
+  margin: 10px;
+  width: 98%;
+
+}
+.hero-ph {
+  margin: 10px auto;
+  background: url(../images/weather-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 180px;
+}
+.weathersummary{
+  position:absolute;
+  top: 15px;
+  left: 30px;
+  background: rgba(31, 121, 176, .8);
+  padding: 10px;
+  width: 40%;
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.weathersummary p {
+  margin: 5px 0;
+}
+
+/* ====================== MAIN ====================== */
+article {
+  background-color: #668ea3;
+  color: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 98%;
+}
+article h1 {
+  margin-bottom: 0;
+}
+
+article div {
+  margin: 10px 0 20px 0;
+}
