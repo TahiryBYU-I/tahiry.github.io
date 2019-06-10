@@ -20,11 +20,19 @@ header {
   grid-template-columns: 1fr 2fr;
 }
 
+.icon {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #1f4664;
+}
+
 nav {
   list-style-type: none;
   text-align: center;
-  background: #3b6387;
+  background: #1f4664;
   color: white;
+  display: none;
 }
 
 nav li {
