@@ -28,6 +28,15 @@
     margin: 0;
     font-size: 100%;
   }
+
+  .fiveDayForecast {
+    display: block;
+    width: 85%;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    padding: 10px 0;
+  }
+
   article {
     width: 85%;
     margin: 15px auto;
