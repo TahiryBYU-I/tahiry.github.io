@@ -12,10 +12,16 @@
     padding: 15px;
   }
   .herodiv {
-    width: 85%;}
+    width: 85%;
+  }
 
-  .hero-ph img {
+  .hero {
+    height: auto;
+    max-height: 400px;
+  }
 
+  .hero img {
+    min-width: 600px;
   }
 
   .weathersummary {
