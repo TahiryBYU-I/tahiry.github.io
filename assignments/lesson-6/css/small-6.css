@@ -2,16 +2,8 @@ html {
   width: 100%;
   font-family: 'Lato', sans-serif;
 }
-body {
-width: 100%;
-background: white;
-font-family: 'Lato', sans-serif;
-}
 
-#content{
-  display: grid;
-}
-
+/* ====================== HEADER ====================== */
 header {
   background: #5588a3;
   text-align: center;
@@ -19,7 +11,17 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+#header-title > div {
+    padding: 8px;
+}
 
+#logo {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+/* ====================== NAVIGATION ====================== */
 .icon {
   text-align: center;
   padding: 15px;
@@ -43,10 +45,14 @@ nav a {
   text-decoration: none;
 }
 
-#logo {
-  margin: 0 auto;
-  padding: 10px;
-  width: 100px;
+body {
+width: 100%;
+background: white;
+font-family: 'Lato', sans-serif;
+}
+
+#content{
+  display: grid;
 }
 
 #header-title { text-align: center;}
@@ -62,18 +68,19 @@ nav a {
   letter-spacing:5px;
 }
 .herodiv {
+  min-height: 200px;
+  max-height: 400px;
+  /* overflow: hidden; */
   width: 95%;
   margin: 0 auto;
   padding: 0;
 }
 
 .hero-ph {
-  height: 210px;
-  overflow: hidden;
+  height: 100%;
 }
 .hero-ph img {
   width: 100%;
-  height: auto;
 }
 
 .weathersummary {
@@ -130,6 +137,8 @@ footer .copyright {
   padding: 10px;
   text-align: center;
 }
+
+/* ============= MAP ============*/
 
 .mapouter{
   position:relative;

@@ -1,15 +1,23 @@
 @media screen and (min-width: 600px){
+.icon {
+  display: none;
+}
+
+  nav {
+    display: block!important;
+  }
+
   nav li {
     display: inline-block;
     padding: 15px;
   }
-  .herodiv {width: 85%}
-  .hero-ph {
-    width: 100%;
-    background-image: url(../images/weather-bg.jpg);
-    background-size: 100%;
-    height: 310px;
+  .herodiv {
+    width: 85%;}
+
+  .hero-ph img {
+
   }
+
   .weathersummary {
     margin: 0;
     font-size: 100%;
