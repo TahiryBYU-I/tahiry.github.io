@@ -17,6 +17,9 @@ var s = getWindSpeed();
 function getWindChill(temp,wind){
   x = (0.0817*(3.71*(Math.pow(wind, 0.5))+5.81-0.25*wind)*(temp-91.4)+91.4);
   document.getElementById('windchill').innerHTML = parseInt(x);
+  console.log("Temperature is " + temp + " ºF");
+  console.log("Wind Speed is " + wind + " mph");
+  console.log("Wind Chill is " + x + " ºF");
 }
 
 getWindChill(t,s);
