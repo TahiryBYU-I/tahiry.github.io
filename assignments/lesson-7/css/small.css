@@ -85,7 +85,9 @@ font-family: 'Lato', sans-serif;
   position: absolute;
   top: 10px;
   left: 20px;
-  max-width: 200px;
+  width: 30%;
+  max-width: 300px;
+  min-width: 150px;
   margin: 0px 0 0 10px;
   padding: 10px;
   background: rgba(31, 121, 176, .8);
@@ -96,6 +98,17 @@ font-family: 'Lato', sans-serif;
 
 .weathersummary p {
   margin: 5px auto;
+}
+
+.weathersummary h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.weathersummary table {margin: 0 auto;}
+
+.weathersummary th {
+  text-align: right;
 }
 
 .fiveDayForecast {
@@ -141,15 +154,6 @@ font-family: 'Lato', sans-serif;
   margin: 10px 0;
   color: #1f4664;
   letter-spacing:5px;
-}
-
-.summary h4 {
-  text-align: center;
-  text-decoration: underline;
-  margin: 10px;
-}
-.summary p {
-  margin: 8px;
 }
 
 article {
