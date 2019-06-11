@@ -4,8 +4,10 @@
 }
 
   nav {
-    display: block!important;
+    display: flex!important;
   }
+
+  nav ul {margin: 0 auto;}
 
   nav li {
     display: inline-block;
