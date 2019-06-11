@@ -157,14 +157,24 @@ font-size: 80%;}
   margin: 0 auto;
 }
 
+#gallery {
+  background: #f6f7f9;
+}
+
 #gallery-content div {
+  background: white;
   margin: 10px auto;
   width: 90%;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 #gallery-content img {
   width: 100%;
   height: auto;
+}
+#gallery-content p {
+  margin: 5px;
+  font-size: 80%;
 }
 
 #gallery-content img:hover {
