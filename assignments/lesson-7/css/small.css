@@ -37,11 +37,16 @@ header {
 }
 
 nav {
-  list-style-type: none;
   text-align: center;
   background: #1f4664;
   color: white;
   display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  padding: none;
 }
 
 nav li {
