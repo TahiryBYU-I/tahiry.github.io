@@ -148,10 +148,7 @@ font-size: 80%;}
 
 .fiveDayForecast strong {paddingl: 10px 0;}
 
-
-#content{
-  display: grid;
-}
+#content{ display: grid; }
 
 #header-title { text-align: center;}
 #header-title > div { text-align: center; margin: 10px 0;}
