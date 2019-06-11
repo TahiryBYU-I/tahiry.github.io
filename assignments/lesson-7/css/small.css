@@ -26,6 +26,7 @@ header {
   /* margin: 0 auto; */
   padding: 10px;
   width: 100px;
+  text-align: center;
 }
 
 /* ====================== NAVIGATION ====================== */
@@ -173,6 +174,7 @@ font-size: 80%;}
   height: auto;
 }
 #gallery-content p {
+  font-style: italic;
   margin: 5px;
   font-size: 80%;
 }
