@@ -19,6 +19,7 @@ header > div {
 
 #logo img{
   width: 100px;
+  margin-top: 4px;
 }
 
 #header-title {
@@ -179,6 +180,7 @@ font-size: 80%;}
 #gallery-content img {
   width: 100%;
   height: auto;
+  transition: transform .2s;
 }
 #gallery-content p {
   font-style: italic;
