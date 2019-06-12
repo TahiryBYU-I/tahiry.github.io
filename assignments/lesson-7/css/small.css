@@ -6,16 +6,23 @@ html {
 /* ====================== HEADER ====================== */
 header {
   background: #5588a3;
-  /* height: 20px; */
   text-align: center;
   color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  vertical-align: middle;
 }
-#header-title > div {
-    padding: 8px;
+header > div {
+  width: 48%;
+}
+
+#logo img{
+  width: 100px;
+}
+
+#header-title {
+  padding: 12px 0;
 }
 
 #header-title #motto {
@@ -23,16 +30,11 @@ header {
   font-size: 80%;
   font-family: 'Dancing Script', cursive;}
 
-#logo {
- width: 100px;
- height: 80px;
-
+#title {
+  font-size: 150%;
+  margin: 0;
 }
-#logo img {
-  width: 100%;
-  height: auto;
-  padding: 8px;
-}
+#motto { margin: 0; }
 
 /* ====================== NAVIGATION ====================== */
 .icon {
@@ -183,11 +185,6 @@ font-size: 80%;}
   margin: 5px;
   font-size: 80%;
 }
-
-#header-title { text-align: center;}
-#header-title > div { text-align: center; margin: 10px 0;}
-#title { font-size: 190%; margin: 0; }
-#motto { margin: 0; }
 
 
 .city-name {
