@@ -59,7 +59,14 @@ nav ul {
 }
 
 nav li {
-  padding: 5px;
+  padding: 10px;
+}
+nav li:hover {
+  background-color: #5588a3;
+}
+
+nav .current {
+  background-color: #13232b;
 }
 nav a {
   color:white;
